@@ -1,1 +1,48 @@
+# Issues and Resolutions
 
+## VMware Virtualization Environment
+
+### Issue:
+Certain Windows security features were not supported within the virtual machine environment.
+
+### Investigation:
+Reviewed Windows Security settings and verified virtualization configuration.
+
+### Resolution:
+Documented the limitation and continued testing with supported security controls.
+
+---
+
+## Windows Update Restart Requirement
+
+### Issue:
+Windows Update required a system restart before confirming the device was fully updated.
+
+### Resolution:
+Restarted the virtual machine and verified the system reported that it was up to date.
+
+---
+
+## File Permission Testing
+
+### Issue:
+Initial folder permissions allowed the standard user account (labuser) to access the protected folder.
+
+### Investigation:
+Reviewed NTFS permissions and identified inherited permissions as the cause.
+
+### Resolution:
+Disabled inheritance and configured administrator-only permissions to demonstrate access control and least privilege.
+
+---
+
+## User Permission Testing
+
+### Issue:
+Testing administrator functions with the standard user account required credential elevation.
+
+### Investigation:
+Verified differences between administrator and standard user privileges.
+
+### Resolution:
+Confirmed that labuser operated with standard permissions while labadmin1 maintained administrative access
