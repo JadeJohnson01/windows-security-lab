@@ -1,1 +1,118 @@
 # Windows Security Administration Lab Report
+## Lab Objective
+
+The objective of this lab was to build and configure a Windows 11 virtual machine environment to practice foundational system administration, networking, security configuration, and troubleshooting skills.
+
+## Lab Environment
+
+- Operating System: Windows 11
+- Virtualization Platform: VMware Workstation
+- Network Adapter: NAT
+- Administrator Account: labadmin1
+- Standard User Account: labuser
+
+---
+
+# 1. Virtual Machine Configuration
+
+## VM Deployment
+
+A Windows 11 virtual machine was deployed using VMware Workstation. Initial configuration included creating administrator and standard user accounts for permission testing.
+
+---
+
+# 2. Network Configuration
+
+## Network Setup
+
+The virtual machine was configured using a NAT network adapter.
+
+Verification performed:
+- Checked IPv4 configuration using Command Prompt
+- Verified default gateway
+- Tested network connectivity using ping
+
+Result:
+Network connectivity was successfully established.
+
+---
+
+# 3. User Account Management
+
+## Account Creation
+
+Two user roles were configured:
+
+Administrator:
+- labadmin1
+
+Standard User:
+- labuser
+
+Purpose:
+To demonstrate user privilege separation and least privilege concepts.
+
+---
+
+# 4. Windows Security Configuration
+
+## Firewall Verification
+
+Windows Firewall status was reviewed to verify security protections were enabled.
+
+## Endpoint Security Review
+
+Windows Security settings were reviewed, including real-time protection status.
+
+---
+
+# 5. System Maintenance
+
+## Windows Version Verification
+
+Verified operating system information using Windows version tools.
+
+## Windows Update Verification
+
+Confirmed the system was updated and operating with the latest available updates.
+
+---
+
+# 6. File and Folder Permissions
+
+## NTFS Permission Testing
+
+A protected folder was created to test access control.
+
+Testing performed:
+- Verified administrator ownership
+- Modified folder permissions
+- Tested access using the standard user account
+
+Result:
+The standard user account was restricted from accessing the protected folder.
+
+Security Concepts:
+- NTFS permissions
+- Access control
+- Least privilege
+
+---
+
+# 7. Windows Event Viewer Review
+
+## Security Log Analysis
+
+Reviewed Windows Event Viewer and Security logs.
+
+Skills practiced:
+- Navigating Windows logs
+- Reviewing security events
+- Understanding administrative monitoring
+
+---
+
+# Conclusion
+
+This lab provided hands-on experience with Windows administration, security configuration, permissions management, and troubleshooting. The project demonstrates foundational skills applicable to entry-level IT support, system administration, and security roles.
+
